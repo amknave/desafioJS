@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio JS | Programação web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">Day Lucky</h1>
+    </header>
+
+    <main>
+        <section>
+            <h1 class="texto-da-secao">Calculadora</h1>
+            <div class="box1">
+                <label for="nome-usuario" class="name">Olha o nome da lenda: </label>
+                <div class="nome"></div>
+                <a href="#"><button onclick="ativarNome()" class="botao1">Concluído</button></a>
+            </div>
+
+            <div class="box2">
+                <input type="number" class="numeros" placeholder="Digite um número">
+                <input type="number" class="numeros" placeholder="Digite um número">
+                <select class="operacao">
+                    <option>Adição</option>
+                    <option>Subtração</option>
+                </select>
+                <a href="#"><button onclick="somarNumeros()" class="botao2">Concluído</button></a>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

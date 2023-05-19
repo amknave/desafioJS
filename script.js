@@ -1,12 +1,15 @@
 function ativarNome(){
     let nome = 'Sávio';
-    console.log(nome)
+    document.getElementById('log').innerHTML = nome;
+    console.log(nome);
+    
 }
 
 
 function somarNumeros(){
-    let a = 5;
-    let b = 10;
-    let c = a*b;
+    let a = 700;
+    let b = 77;
+    let c = a+b;
+    document.getElementById('log2').innerHTML = c;
     console.log(c)
 }

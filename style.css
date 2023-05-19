@@ -35,7 +35,7 @@ section{
     border-radius: 15px;
     height: 300px;
     position: relative;
-    top: 170px;
+    top: 300px;
     display: flex;
 }
 
@@ -60,6 +60,7 @@ section{
 .name{
     color: rgb(252, 110, 110);
     font-size: 30px;
+    text-align: center;
 }
 
 #nome-usuario{
@@ -105,16 +106,6 @@ section{
     text-align: center;
 }
 
-.operacao{
-    border: 0;
-    border-radius: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 30%;
-    text-align: center;
-    font-size: 17px;
-}
-
 .botao2{
     border: 0;
     border-radius: 25px;
@@ -135,4 +126,14 @@ section{
 .botao2:hover{
     cursor: pointer;
     background-color: brown;
+}
+
+.nome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
 }
